@@ -140,7 +140,7 @@ a:hover {
 }
 
 .intro-background {
-    background: url("Resources/seedbox-images/rolls-bg.jpeg");
+    background: url("/Resources/seedbox-images/rolls-bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
