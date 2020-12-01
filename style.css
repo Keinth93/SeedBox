@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 90vh;
+    padding: 0 6%;
+}
+
+header {
+    align-items: center;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffffffd5, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffffffd5, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: solid 4px rgb(250, 250, 250);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    min-height: 10vh;
+    padding: 0 3%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 5;
+    transition: all ease 0.1s;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #0d7377;
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-family: "Sacramento", cursive;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+p, blockquote {
+    color: #6d9e9c;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#navbar-brand {
+    width: 110px;
+    transition: all ease 0.1s;
+}
+
+ul {
+    display: inline-flex;
+    margin: 0;
+}
+
+a {
+    color: #0d7377;
+    margin: auto;
+    transition: all ease-in-out 0.2s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-items {
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.nav-link {
+    transition: all ease-in-out 0.1s;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+.fa-icon {
+    color: #0d7377;
+    font-size: 1.3rem;
+}
+
+.burger {
+    cursor: pointer;
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+.line1, .line2, .line3 {
+    background-color: #0d7377;
+    height: 2px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#intro, #menu, #testimonials {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+#intro {
+    height: 85vh;
+    top: 15vh;
+}
+
+.background {
+    min-height: 90vh;
+    position: static;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.intro-background {
+    background: url("/Resources/seedbox-images/rolls-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu-background {
+    background: url("/Resources/seedbox-images/tropical-leaves.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testimonial-background {
+    background: url("/Resources/seedbox-images/side-leaves.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    margin: auto;
+    width: 90%;
+}
+
+.carousel.carousel-fade .carousel-item {
+    transition: opacity ease-out 2s;
+}
+
+.intro-image-active, .intro-image {
+    margin: 0 auto;
+}
+
+.img-filter {
+    filter: contrast(90%) brightness(110%) saturate(125%);
+}
+
+.card {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffffff88, #ECE9E688);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF88, #ECE9E688); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: solid 4px rgb(243, 243, 243);
+    border-radius: 8rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+    text-align: center;
+    transition: all ease-in-out 0.1s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.main-menu-img {
+    width: 400px;
+    margin: auto;
+}
+
+.shadowed {
+    filter: drop-shadow(2px 5px 7px rgba(0,0,0,0.5));
+}
+
+.flex {
+    align-items: center;
+    display: inline-flex;
+}
+
+.testimonial-carousel {
+    margin-top: 5rem;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 5%;
+}
+
+.cite {
+    align-items: center;
+    display: inline-flex;
+}
+
+.cite-icon {
+    border: solid 2px #3aafa9;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.menu-caption {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem auto;
+}
