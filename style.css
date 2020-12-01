@@ -140,21 +140,21 @@ a:hover {
 }
 
 .intro-background {
-    background: url("/Resources/seedbox-images/rolls-bg.jpeg");
+    background: url("Resources/seedbox-images/rolls-bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .menu-background {
-    background: url("/Resources/seedbox-images/tropical-leaves.jpeg");
+    background: url("Resources/seedbox-images/tropical-leaves.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .testimonial-background {
-    background: url("/Resources/seedbox-images/side-leaves.jpeg");
+    background: url("Resources/seedbox-images/side-leaves.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
